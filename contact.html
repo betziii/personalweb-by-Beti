@@ -4,86 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    
+    <link rel="stylesheet" href="./asset/css/contactstyle.css">
     <link rel="icon" href="http://gsia.sums.ac.ir/Images/UserFiles/1/image/CV%20and%20Cover%20Letter/curriculum-vitae-SUMS.jpg" type="image">
     
 </head>
 <body>
-    <hr>
-    <a href="index.html" target="_blank" >HOME</a>
-    <a href="contact.html" target="_blank">CONTANCT</a>
-    <a href="gallery.html" target="_blank">GALLERY</a>
-
-
-    <hr>
-    <hr>
-    <table><tr>
-        <td><img src="./asset/image/row your boat.png" alt="profile image" width="700px"></td>
-        <td><h1>Bethelhem Teshibelay</h1>
-            <h2>Student, Addis Ababa University</h2>
-            <p>My name is Bethelhem T also known as Beti. I am a student of software engineering.</p> </td>
-    </tr></table>
-    
-    <hr>
-    <h3>Leave your comment here.</h3>
-    
-    <form method="POST" action="mailto:se.bethelhem.teshibelay@gmail.com" enctype="UTF-8">
-        <table>
-            <tr>
-                <td><label for="fName">First Name</label>
-                    </td>
-                <td><input type="text" name="fName" id="fName" pattern="[A-Za-z]+$" required></td>
-            </tr>
-            <tr>
-                <td><label for="lName">Last Name</label>&nbsp;</td>
-                <td><input type="text" name="lName" id="lName" pattern="[A-Za-z]+$" ></td>
-            </tr>
-            <tr>
-                <td><label for="Date of Birth">Date of Birth</label></td>
-                <td><input type="datetime-local" name="datetime" id="datetime"></td>
-            </tr>
-            
-            <tr>
-                <td><label for="email">email</label></td>
-                <td><input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></td>
-            </tr>
-            <tr>
-                <td><label for="Password">Password</label></td>
-                <td><input type="text" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></td>
-            </tr>
-            <tr>
-                <td><label for = "country">Country</label></td>
-                <td><select name="country" id="" >
-                    <option value="C">China</option>
-                    <option value="Ethiopia">Ethiopia</option>
-                </select></td>
-                
-            </tr>
-            <tr>
-                <td><label for="detail">What do you want to say?</label></td>
-                <td><textarea name="detail" id="detail" cols="30" rows="30"></textarea></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value="submit"></td></tr>
-        </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img id="profile" src="./asset/image/row your boat.png" alt="profile image" width="700px"></td>
+    <div id="status"><h1>Bethelhem Teshibelay</h1>
+        <h2>Student, Addis Ababa University</h2>
+        <p>My name is Bethelhem T also known as Beti. I am a student of software engineering.</p> 
+    </div>
+    <div  class="clear"></div>
+    <h3 id="comment">Leave your comment here.</h3>
+    <div id="contactform">
+        <form method="POST" action="mailto:se.bethelhem.teshibelay@gmail.com" enctype="UTF-8">
         
+            <label class="formname"  for="fName">First Name</label>
+        
+        <input type="text" name="fName" class="fName" pattern="[A-Za-z]+$" required>
     
-    </form>
+        <div  class="clear"></div>
+        
+            <label class="formname" for="lName">Last Name</label>
+        
+        <input type="text" name="lName" class="fName" pattern="[A-Za-z]+$" >
+        <div  class="clear"></div>
+        
+            <label class="formname" for="Date of Birth">Date of Birth</label>
+        
+        <input type="datetime-local" name="datetime" class="fName">
+        <div  class="clear"></div>
+        
+            <label class="formname" for="email">Email</label>
+        
+        <input type="text" name="email" class="fName" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <div  class="clear"></div>
+            <label class="formname" for="Password">Password</label>
+        
+        <input type="text" class="fName" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        <div  class="clear"></div>
+            <label class="formname" for = "country">Country</label>
+        
+        <select name="country" id="country" >
+            <option value="C">China</option>
+            <option value="Ethiopia">Ethiopia</option>
+        </select>
+        <div  class="clear"></div>
+            <label class="formname" for="detail">What do you want to say?</label>
+        </div>
+        <textarea name="detail" id="detail" cols="30" rows="30"></textarea>
+        <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
     <hr>
     <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
     
 
-    <hr>
+    <div class="foot">
     <a href="" target="_blank" >Facebook</a>
     <a href="" target="_blank" >Twitter</a>
-
-    <hr>
-
+    </div>
+    <div class="foot"><p align = "center">Developed by Bethelhem T.&copy;</p></div>
     
-    <hr>
-    <p align = "center">Developed by Bethelhem T.&copy;</p>
-    <hr>
+    
 
     
 

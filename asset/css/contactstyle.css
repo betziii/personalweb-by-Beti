@@ -1,0 +1,52 @@
+header{
+    background-color: rgba(70, 117, 115,0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body{
+    margin-top: 75px ;
+}
+nav>ul>li{
+    display: inline-block;padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:link{
+    background-color: maroon;
+}
+nav>ul>li:visited{
+    background-color: lightsalmon;
+}
+nav>ul>li:hover{
+    background-color: lightgreen;
+}
+nav>ul>li:active{
+    background-color: rgb(136, 136, 187);
+}
+#proimg{
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.clear{
+    clear: both;
+}
+.fName{
+    float:left;
+    
+    
+}
+#status{
+    float: right;
+}
+.formname{
+    float: left;
+    
+    display: block;
+}
+#contactform{
+    line-height: 25px;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: skyblue;
+    background-image: url(./asset/image/amsterdam-by-night-1.jpg) ;
+    background-repeat: no-repeat;
+    
+    margin: 10px;
+}
+header{
+    background-color: rgba(70, 117, 115,0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    margin-top: 50px;
+}
+article{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+.title{
+    font-size: 23px;
+    font-weight: bolder;
+
+}
+.date{
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+nav>ul>li{
+    display: inline-block;padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:link{
+    background-color: maroon;
+}
+nav>ul>li:visited{
+    background-color: lightsalmon;
+}
+nav>ul>li:hover{
+    background-color: lightgreen;
+}
+nav>ul>li:active{
+    background-color: rgb(136, 136, 187);
+}
+img{
+    float: left;
+    
+    width: 500px;
+    height: 500px;
+}
+#test{
+    font-size: 20px;
+    color: orangered;
+}
+#status{
+    float:left;
+}
+#counryside{
+    float:left;
+    margin: 30px;
+
+}
+.clear{
+    clear: both;
+}
