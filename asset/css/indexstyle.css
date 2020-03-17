@@ -3,9 +3,8 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-}
-body{
-    margin-top: 75px ;
+    
+    
 }
 nav>ul>li{
     display: inline-block;padding: 10px 3px;
@@ -26,6 +25,7 @@ nav>ul>li:hover{
 nav>ul>li:active{
     background-color: rgb(136, 136, 187);
 }
+
 #proimg{
     float: left;
     width: 500px;
@@ -33,43 +33,17 @@ nav>ul>li:active{
 }
 .clear{
     clear: both;
+}#status{
+    float:right;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.fName{
-    float:left;
-    
-    
-}
-#status{
-    float: right;
-}
-.formname{
+#proimg{
     float: left;
-
-    
-    
+    width: 500px;
+    height: 500px;
 }
-#contactform{
-    line-height: 25px;
-    border-bottom:solid white 50px;
+body{
+    margin-top: 75px ;
 }
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:500px;
-    width:600px;
-    
-    border-right: solid white 50px;
-    border-bottom: solid white 50px;
-}
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:500px;
-    width:600px;
-}
-.foot{
-    border-top: solid white 50px;
-    text-align: center;
-
-}
-    
