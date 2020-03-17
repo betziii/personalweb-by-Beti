@@ -40,20 +40,32 @@
 
             </section>
             <section>
-                <p class="title">my second post</p>
+                <p class="title">The difference between Browser pixel and Pixel in CSS</p>
                 <article>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam laudantium quae rerum aspernatur eius, perspiciatis eaque id, fugiat sed quod sit. Aliquid, sint ab.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis rerum quisquam, quas beatae molestiae, vero error accusamus provident eaque quam eveniet voluptas aspernatur repudiandae!
+                    <p>We said 16px is default browser width so what does it mean when we say 200px? 
+                        How does the browser interpret that?</p>
+                    <p>Pixels are a unit screen measurement. The pixel in browsers show screen resolution and the pixels in CSS show the length of a display area. The pixel (px) in CSS is an angular measurement. 
+                        It is relative to the resolution of the viewing device. So, the referential pixel is the angle of one pixel on a device with pixel density of 96 dpi and a distance from the reader of an arm’s length (the average length is 28 inches).
                     </p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam laudantium quae rerum aspernatur eius, perspiciatis eaque id, fugiat sed quod sit. Aliquid, sint ab.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis rerum quisquam, quas beatae molestiae, vero error accusamus provident eaque quam eveniet voluptas aspernatur repudiandae!
-                    </p>
+                    <img src="./asset/image/Capture.PNG" alt="[Right angled triangle, opp = 1/192 in, adj = 28 in]" id="triangle">
+                    <p id="tan">Tan (α) = opposite /adjacent<br>
+                        Tan (α) = ((1/96) / 2) / 28<br>
+                        tan (α) = (1/192) / 28<br>
+                        tan (α) = 1/5376<br>
+                        α = arc tan (1/5376)<br>
+                        </p>
+                        <div class="clear"></div>
+                    <p>Since α is only the half angle we want to find the value of we double the value. So we get:</p>
+                    <p>α = arc tan (1/5376) * 2</p>
+                    <p>In conclusion, we have formulas to convert between radians and pixels.</p>
 
 
                 </article>
-                <p class="date">March 13,2020 : 3:00am</p>
+                <div class="clear"></div>
+                <p class="date">March 17,2020 : 3:00pm</p>
 
             </section>
+            
             <section>
                 <p class="title">my third post</p>
                 <article>
