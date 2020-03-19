@@ -86,5 +86,17 @@ img{
     
     
 }
+.foot{
+    border-top: solid rgb(247, 244, 229) 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+    
+
+
 
 
