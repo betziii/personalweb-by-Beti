@@ -38,10 +38,8 @@ img{
     height: 200px;
 }
 table{
-    margin-top: 150px;
+    margin-top: 70px;
     margin-left: 150px;
-    
-    
 
 }
 a{
@@ -52,5 +50,10 @@ a{
     border-top: solid rgb(247, 244, 229) 50px;
     text-align: center;
 
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
 }
 
