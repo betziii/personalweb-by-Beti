@@ -1,10 +1,18 @@
+body{
+    background-color: rgb(247, 244, 229);
+   
+    background-repeat: no-repeat;
+    
+    margin: 10px;
+    text-decoration: none;
+}
 header{
-    background-color: rgba(70, 117, 115,0.6);
+    background-color: rgba(33, 245, 234, 0.6);
     position: fixed;
     top: 0;
     width: 100%;
     
-    
+
 }
 nav>ul>li{
     display: inline-block;padding: 10px 3px;
@@ -43,7 +51,20 @@ nav>ul>li:active{
     float: left;
     width: 500px;
     height: 500px;
+    
 }
 body{
     margin-top: 75px ;
+}
+table{
+    border-bottom: solid rgb(247, 244, 229) 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    border-top: solid rgb(247, 244, 229) 50px;
+    text-align: center;
+
 }
