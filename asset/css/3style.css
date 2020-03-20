@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+  }
+  .container,body,li,ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    font-family: sans-serif;
+    width: 100%;
+    background: rgb(247, 244, 229);
+    flex-direction: column;
+}
+header{
+    background-color: rgba(33, 245, 234, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+}
+.container{
+    margin-top: 100px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav>ul>li{
+    display: inline-block;padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:link{
+    background-color: maroon;
+}
+nav>ul>li:visited{
+    background-color: lightsalmon;
+}
+nav>ul>li:hover{
+    background-color: lightgreen;
+}
+nav>ul>li:active{
+    background-color: rgb(136, 136, 187);
+}
+li,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+li {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    
+}
+.container,li {
+    flex-direction: column;
+}
+.text {
+    width: 900px;
+}
+.flag {
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+}
+  h1 {
+    font-weight: 400;
+    color: rgb(14, 9, 19);
+    font-size: 2em;
+  }
+ h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  a,h3 {
+    color: #0c0f13;
+  }
+  a {
+    font-size: 1em;
+  }
+  .austria {
+    background: linear-gradient(
+      180deg,
+      #ed2939,
+      #ed2939 33.33333%,
+      #fff 33.33333%,
+      #fff 66.66667%,
+      #ed2939 66.66667%,
+      #ed2939);
+}
+.german {
+    background: linear-gradient(
+      180deg,
+      #000 33.33333%,
+      #d00 33.33333%,
+      #d00 66.66667%,
+      #ffce00 66.66667%);
+}
+.belgium {
+    background: linear-gradient(
+      90deg,
+      #000,
+      #000 33.33333%,
+      #fae042 33.33333%,
+      #fae042 66.66667%,
+      #ed2939 66.66667%,
+      #ed2939);
+}
+.bulgaria {
+    background: linear-gradient(
+      180deg,
+      #fff,
+      #fff 33.33333%,
+      #00966e 33.33333%,
+      #00966e 66.66667%,
+      #d62612 66.66667%,
+      #d62612);
+}
+.denmark {
+    background: linear-gradient(
+        180deg,
+        transparent 40%,
+        #fff 0,
+        #fff 55%,
+        transparent 0,
+        transparent),
+      linear-gradient(
+        90deg,
+        transparent 30%,
+        #fff 0,
+        #fff 40%,
+        transparent 0,
+        transparent),
+      #c60c30;
+}
+.finland {
+    background: linear-gradient(
+        180deg,
+        transparent 35%,
+        #003580 0,
+        #003580 60%,
+        transparent 0),
+      linear-gradient(
+        90deg,
+        transparent 30%,
+        #003580 0,
+        #003480 45%,
+        transparent 0),
+      #fff;
+}
+.hungary {
+    background: linear-gradient(
+      180deg,
+      #cd2a3e 33.33333%,
+      #fff 33.33333%,
+      #fff 66.66667%,
+      #436f4d 66.66667%);
+}
+.ireland {
+    background: linear-gradient(
+      90deg,
+      #169b62 33.33333%,
+      #fff 33.33333%,
+      #fff 66.66667%,
+      #ff883e 66.66667%);
+}
+.lithuania {
+    background: linear-gradient(
+      180deg,
+      #fdb913 33.33333%,
+      #006a44 33.33333%,
+      #006a44 66.66667%,
+      #c1272d 66.66667%);
+}
+.netherlands {
+    background: linear-gradient(
+      180deg,
+      #ae1c28 33.33333%,
+      #fff 33.33333%,
+      #fff 66.66667%,
+      #21468b 66.66667%);
+}
+.poland {
+    background: linear-gradient(
+        180deg, 
+        #fff 50%,
+        #dc143c 0);
+}
+.uae {
+    background: linear-gradient(
+        90deg, 
+        red 30%, 
+        transparent 0),
+      linear-gradient(
+        180deg,
+        #00732f 33.33333%,
+        #fff 33.33333%,
+        #fff 66.66667%,
+        #000 66.66667%);
+}
+.russia {
+    background: linear-gradient(
+      180deg,
+      #fff 33.33333%,
+      #0039a6 33.33333%,
+      #0039a6 66.66667%,
+      #d52b1e 66.66667%);
+}
+.yemen {
+    background: linear-gradient(
+      180deg,
+      #ce1126 33.33333%,
+      #fff 33.33333%,
+      #fff 66.66667%,
+      #000 66.66667%);
+}
+.thailand {
+    background: linear-gradient(
+      180deg,
+      #ed1c24 15%,
+      #fff 0,
+      #fff 30%,
+      #241d4f 0,
+      #241d4f 70%,
+      #fff 0,
+      #fff 85%,
+      #ed1c24 0);
+}
+.foot{
+    border-top: solid rgb(247, 244, 229) 50px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
