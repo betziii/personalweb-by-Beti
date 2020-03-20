@@ -5,8 +5,12 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    
 
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .container{
     margin-top: 100px;
@@ -224,4 +228,13 @@ a{font-size:1em}
         #fff 50%, 
         #dc143c 0);
         
+}
+.foot{
+    border-top: solid rgb(247, 244, 229) 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+
 }

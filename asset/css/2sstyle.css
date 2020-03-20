@@ -1,6 +1,47 @@
+body{
+  background-color: rgb(247, 244, 229);
+ 
+  background-repeat: no-repeat;
+  
+  margin: 10px;
+  text-decoration: none;
+}
+header{
+  background-color: rgba(33, 245, 234, 0.6);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav>ul>li{
+  display: inline-block;padding: 10px 3px;
+  font-size: 20px;
+}
+nav>ul>li>a{
+  text-decoration: none;
+}
+nav>ul>li:link{
+  background-color: maroon;
+}
+nav>ul>li:visited{
+  background-color: lightsalmon;
+}
+nav>ul>li:hover{
+  background-color: lightgreen;
+}
+nav>ul>li:active{
+  background-color: rgb(136, 136, 187);
+}
 
 h1 {
   text-align: center;
+  margin-top: 100px;
 }
 td {
   width: 100px;
@@ -8,6 +49,7 @@ td {
 }
 table {
   margin: 5px auto;
+  border-collapse: collapse;
 }
 .col {
   border-left: 2px solid black;
@@ -16,4 +58,13 @@ table {
 .row {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+}
+.foot{
+  border-top: solid rgb(247, 244, 229) 50px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+
 }

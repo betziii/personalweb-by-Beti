@@ -1,13 +1,15 @@
-
+* {
+    box-sizing: border-box;
+  }
+  
 header{
     background-color: rgba(136, 247, 243, 0.6);
     position: fixed;
     top: 0;
     width: 100%;
     
-    
-    
 }
+
 body{
     background-color: rgb(247, 244, 229);
     background-image: url(./asset/image/amsterdam-by-night-1.jpg) ;
@@ -59,10 +61,13 @@ div img{
     margin: 30px;
     margin: 1.66666%;
 }
-#pics{
+.pics{
     border-bottom:solid  rgb(247, 244, 229) 40px;
     
 
+}
+#gap{
+    border-bottom: solid rgb(247, 244, 229) 70px;
 }
 #status{
     float:right;
@@ -71,10 +76,14 @@ div img{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 100px;
 }
-.image{
-    width: 30%;
-    height: 300px;
-}
+
+
+@media screen and (max-width: 600px) {
+    .pics {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 a{
     text-decoration: none;
     color: black;

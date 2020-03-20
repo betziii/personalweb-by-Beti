@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
     background-color: rgb(247, 244, 229);
    
@@ -11,8 +14,12 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    
 
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 nav>ul>li{
     display: inline-block;padding: 10px 3px;
@@ -34,14 +41,15 @@ nav>ul>li:active{
     background-color: rgb(136, 136, 187);
 }
 img{
-    width: 300px;
-    height: 200px;
+    width: 12rem;
+    
 }
 table{
-    margin-top: 70px;
-    margin-left: 150px;
+    margin-top: 2rem;
+    margin-left: 6rem;
 
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -56,4 +64,10 @@ h1{
     margin-top: 100px;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .links {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 

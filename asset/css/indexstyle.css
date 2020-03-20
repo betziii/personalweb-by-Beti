@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+  
 body{
     background-color: rgb(247, 244, 229);
    
@@ -6,7 +10,7 @@ body{
     margin: 10px;
     text-decoration: none;
 }
-header{
+.head{
     background-color: rgba(33, 245, 234, 0.6);
     position: fixed;
     top: 0;
@@ -56,15 +60,32 @@ nav>ul>li:active{
 body{
     margin-top: 75px ;
 }
+
 table{
     border-bottom: solid rgb(247, 244, 229) 20px;
+    width: 800px;
 }
 a{
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width: 600px) {
+    .head  {
+      float: none;
+      width: 100%;
+    }
+  }
 .foot{
     border-top: solid rgb(247, 244, 229) 50px;
     text-align: center;
 
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work{
+    float: left;
+    padding-right: 50px;
 }
